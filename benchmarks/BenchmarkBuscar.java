@@ -34,7 +34,7 @@ public class BenchmarkBuscar {
 
             long medianaLineal = tiemposLineal[5];
             long medianaBinaria = tiemposBinaria[5];
-            System.out.println("n=" + n +
+            System.out.println("n: " + n +
                     " | Lineal: " + medianaLineal +
                     " ns | Binaria: " + medianaBinaria + " ns");
         }
